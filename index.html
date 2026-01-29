@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>타이핑 연습 - Typing Practice</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+KR:wght@400;500;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <div class="logo">Typing Practice</div>
+            <nav>
+                <button id="settings-btn" aria-label="설정"></button>
+            </nav>
+        </header>
+
+        <main>
+            <section id="hero-section" class="glass-panel">
+                <h1>타이핑의 정석</h1>
+                <p>정확하고 리드미컬한 타이핑 습관을 길러보세요.</p>
+                <div class="action-buttons">
+                    <button class="primary-btn" onclick="startPractice()">연습 시작</button>
+                    <button class="secondary-btn" onclick="viewCurriculum()">커리큘럼 보기</button>
+                </div>
+            </section>
+
+            <section id="stats-preview" class="hidden">
+               <!-- 통계 요약이 여기에 들어갑니다 -->
+            </section>
+        </main>
+
+        <footer>
+            <p>© 2026 Typing Practice Project</p>
+        </footer>
+    </div>
+    <script src="js/main.js" type="module"></script>
+</body>
+</html>
