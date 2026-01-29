@@ -1,0 +1,32 @@
+[
+  {
+    "id": "auto_1769667286_0",
+    "category": "shift_mix",
+    "text": "Elon Musk -> SpaceX & Tesla",
+    "guide": "특수문자와 대문자 혼합"
+  },
+  {
+    "id": "auto_1769667286_1",
+    "category": "shift_mix",
+    "text": "JavaScript and TypeScript",
+    "guide": "카멜 케이스 연습"
+  },
+  {
+    "id": "auto_1769667286_2",
+    "category": "shift_mix",
+    "text": "stay hungry stay foolish",
+    "guide": "스티브 잡스 명언"
+  },
+  {
+    "id": "auto_1769667286_3",
+    "category": "shift_mix",
+    "text": "Daft Punk - Get Lucky",
+    "guide": "노래 제목 연습"
+  },
+  {
+    "id": "auto_1769667286_4",
+    "category": "shift_mix",
+    "text": "if (score > 90) { return 'A'; }",
+    "guide": "조건문과 블록"
+  }
+]

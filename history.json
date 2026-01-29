@@ -1,0 +1,406 @@
+[
+  {
+    "timestamp": "2026-01-29T14:49:29.707590",
+    "drill_id": "intro_1",
+    "category": "basic_ko",
+    "expected": "타이핑 연습을 시작합니다.",
+    "actual": "타이핑 연습을 시작합니다.",
+    "wpm": 18,
+    "accuracy": 100.0,
+    "mistakes": []
+  },
+  {
+    "timestamp": "2026-01-29T14:49:43.717019",
+    "drill_id": "intro_2",
+    "category": "basic_ko",
+    "expected": "천천히 정확하게 치는 것이 가장 빠릅니다.",
+    "actual": "천천히 정확하게 치는 것이 가장 빠릅니다.",
+    "wpm": 23,
+    "accuracy": 100.0,
+    "mistakes": []
+  },
+  {
+    "timestamp": "2026-01-29T14:50:31.599907",
+    "drill_id": "shift_1",
+    "category": "shift_mix",
+    "expected": "The Quick Brown Fox Jumps Over The Lazy Dog.",
+    "actual": "The Quick Brown Fox Jump Over Tje Lazy Dog.",
+    "wpm": 11,
+    "accuracy": 96.55172413793103,
+    "mistakes": [
+      "Missed: 's'",
+      "Typo: 'h' -> 'j'"
+    ]
+  },
+  {
+    "timestamp": "2026-01-29T14:51:13.204408",
+    "drill_id": "code_1",
+    "category": "code",
+    "expected": "print('Hello, World!')",
+    "actual": "print('Hello, World!')",
+    "wpm": 8,
+    "accuracy": 100.0,
+    "mistakes": []
+  },
+  {
+    "timestamp": "2026-01-29T14:51:50.152007",
+    "drill_id": "mix_1",
+    "category": "kor_eng_mix",
+    "expected": "제 GitHub 아이디는 lionets2 입니다.",
+    "actual": "제 GitHub 아이디는 lionets2 입니다.",
+    "wpm": 9,
+    "accuracy": 100.0,
+    "mistakes": []
+  },
+  {
+    "timestamp": "2026-01-29T14:54:57.745938",
+    "drill_id": "analysis_feedback",
+    "category": "feedback",
+    "expected": "분석 결과: 영문 Shift 키 입력 시 속도가 저하되고, 'h'와 'j' 위치 혼동이 보입니다.",
+    "actual": "분석 결과 : 영문 Shift 키 입력 시 속도가 저하되고, 'h'와 'j' 위치 혼동이 보입니다.",
+    "wpm": 10,
+    "accuracy": 99.08256880733946,
+    "mistakes": [
+      "Inserted: ' '"
+    ]
+  },
+  {
+    "timestamp": "2026-01-29T14:55:46.775396",
+    "drill_id": "shift_focus_1",
+    "category": "eng_shift",
+    "expected": "Hello Java Python C++ JavaScript",
+    "actual": "Hello Jsva Python C++ JavaScript",
+    "wpm": 8,
+    "accuracy": 96.875,
+    "mistakes": [
+      "Typo: 'a' -> 's'"
+    ]
+  },
+  {
+    "timestamp": "2026-01-29T14:56:12.472825",
+    "drill_id": "home_row_fix",
+    "category": "eng_basic",
+    "expected": "h j h j happy joy hello jelly",
+    "actual": "h j h j happy jot hello jelly",
+    "wpm": 16,
+    "accuracy": 96.55172413793103,
+    "mistakes": [
+      "Typo: 'y' -> 't'"
+    ]
+  },
+  {
+    "timestamp": "2026-01-29T14:56:51.827150",
+    "drill_id": "symbol_drill_1",
+    "category": "code",
+    "expected": "if (x > 10) { return true; }",
+    "actual": "if (x > 10) { return true; }",
+    "wpm": 10,
+    "accuracy": 100.0,
+    "mistakes": []
+  },
+  {
+    "timestamp": "2026-01-29T14:57:24.072023",
+    "drill_id": "kor_eng_adv_1",
+    "category": "mix_adv",
+    "expected": "윈도우(Windows)와 리눅스(Linux)를 모두 사용합니다.",
+    "actual": "윈도우(Windows)와 리눅스(Linux)를 모두 사용합니다.",
+    "wpm": 13,
+    "accuracy": 100.0,
+    "mistakes": []
+  },
+  {
+    "timestamp": "2026-01-29T14:58:01.356751",
+    "drill_id": "sentence_drill_1",
+    "category": "eng_sentence",
+    "expected": "Practice makes perfect. Slow is smooth, smooth is fast.",
+    "actual": "Practice makes perpect. Slow is smooth, smooth is fast.",
+    "wpm": 18,
+    "accuracy": 98.18181818181819,
+    "mistakes": [
+      "Typo: 'f' -> 'p'"
+    ]
+  },
+  {
+    "timestamp": "2026-01-29T15:05:15.925426",
+    "drill_id": "analysis_feedback",
+    "category": "feedback",
+    "expected": "분석 결과: 영문 Shift 키 입력 시 속도가 저하되고, 'h'와 'j' 위치 혼동이 보입니다.",
+    "actual": "분석 결과: 영문 Shift 키 입력 시 속도가 저하되고, 'h'와 'j' 위치 혼동이 보입니다.",
+    "wpm": 11,
+    "accuracy": 100.0,
+    "mistakes": []
+  },
+  {
+    "timestamp": "2026-01-29T15:05:40.136234",
+    "drill_id": "shift_focus_1",
+    "category": "eng_shift",
+    "expected": "Hello Java Python C++ JavaScript",
+    "actual": "첫 글자 대문자에 집중하세요. Shtft는 반대 손으로!",
+    "wpm": 15,
+    "accuracy": 15.873015873015872,
+    "mistakes": [
+      "Typo: 'Hello' -> '첫'",
+      "Typo: 'Java' -> '글자'",
+      "Typo: 'Py' -> '대문자에 집중하세요. Sh'",
+      "Typo: 'hon' -> 'ft는'",
+      "Typo: 'C++' -> '반대'",
+      "Typo: 'JavaScript' -> '손으로!'"
+    ]
+  },
+  {
+    "timestamp": "2026-01-29T15:06:09.747800",
+    "drill_id": "home_row_fix",
+    "category": "eng_basic",
+    "expected": "h j h j happy joy hello jelly",
+    "actual": "h j h j happy joy hello jelly",
+    "wpm": 11,
+    "accuracy": 100.0,
+    "mistakes": []
+  },
+  {
+    "timestamp": "2026-01-29T15:06:42.285750",
+    "drill_id": "symbol_drill_1",
+    "category": "code",
+    "expected": "if (x > 10) { return true; }",
+    "actual": "if (x > 10) { return true; }",
+    "wpm": 10,
+    "accuracy": 100.0,
+    "mistakes": []
+  },
+  {
+    "timestamp": "2026-01-29T15:07:24.588032",
+    "drill_id": "kor_eng_adv_1",
+    "category": "mix_adv",
+    "expected": "윈도우(Windows)와 리눅스(Linux)를 모두 사용합니다.",
+    "actual": "윈도우(Windows)와 리눅스(Linux)를 모두 사용합니다.",
+    "wpm": 9,
+    "accuracy": 100.0,
+    "mistakes": []
+  },
+  {
+    "timestamp": "2026-01-29T15:08:13.191133",
+    "drill_id": "sentence_drill_1",
+    "category": "eng_sentence",
+    "expected": "Practice makes perfect. Slow is smooth, smooth is fast.",
+    "actual": "Practice makes perfect. Slow is smooth, smooth is fast.",
+    "wpm": 13,
+    "accuracy": 100.0,
+    "mistakes": []
+  },
+  {
+    "timestamp": "2026-01-29T15:08:46.493222",
+    "drill_id": "auto_1769666897_0",
+    "category": "shift_mix",
+    "expected": "iPhone, iPad, MacBook",
+    "actual": "iPhone, iPad, MacBook",
+    "wpm": 10,
+    "accuracy": 100.0,
+    "mistakes": []
+  },
+  {
+    "timestamp": "2026-01-29T15:08:56.955922",
+    "drill_id": "auto_1769666897_1",
+    "category": "shift_mix",
+    "expected": "타이핑 연습을 시작합니다.",
+    "actual": "타이칭 연습을 시작합니다.",
+    "wpm": 16,
+    "accuracy": 92.85714285714286,
+    "mistakes": [
+      "Typo: '핑' -> '칭'"
+    ]
+  },
+  {
+    "timestamp": "2026-01-29T15:09:08.475838",
+    "drill_id": "auto_1769666897_2",
+    "category": "shift_mix",
+    "expected": "Hello World",
+    "actual": "Hello World",
+    "wpm": 11,
+    "accuracy": 100.0,
+    "mistakes": []
+  },
+  {
+    "timestamp": "2026-01-29T15:09:17.792437",
+    "drill_id": "auto_1769666897_3",
+    "category": "shift_mix",
+    "expected": "늦었다고 생각할 때가 가장 빠릅니다.",
+    "actual": "늦었다고 생각할 때가 가장 빠릅니다.",
+    "wpm": 25,
+    "accuracy": 100.0,
+    "mistakes": []
+  },
+  {
+    "timestamp": "2026-01-29T15:09:45.063728",
+    "drill_id": "auto_1769666897_4",
+    "category": "shift_mix",
+    "expected": "I love New York and Seoul.",
+    "actual": "I love New York and Seoul.",
+    "wpm": 11,
+    "accuracy": 100.0,
+    "mistakes": []
+  },
+  {
+    "timestamp": "2026-01-29T15:10:14.045793",
+    "drill_id": "auto_1769666988_0",
+    "category": "shift_mix",
+    "expected": "JavaScript and TypeScript",
+    "actual": "JavaScript and TypeScript",
+    "wpm": 14,
+    "accuracy": 100.0,
+    "mistakes": []
+  },
+  {
+    "timestamp": "2026-01-29T15:10:31.663943",
+    "drill_id": "auto_1769666988_1",
+    "category": "shift_mix",
+    "expected": "iPhone, iPad, MacBook",
+    "actual": "iPhonr, iPad, MacBook",
+    "wpm": 14,
+    "accuracy": 95.23809523809523,
+    "mistakes": [
+      "Typo: 'e' -> 'r'"
+    ]
+  },
+  {
+    "timestamp": "2026-01-29T15:10:54.885318",
+    "drill_id": "auto_1769666988_2",
+    "category": "shift_mix",
+    "expected": "HTML, CSS, And JS!",
+    "actual": "HTML, CSS, And JS!",
+    "wpm": 9,
+    "accuracy": 100.0,
+    "mistakes": []
+  },
+  {
+    "timestamp": "2026-01-29T15:11:32.170382",
+    "drill_id": "auto_1769666988_3",
+    "category": "shift_mix",
+    "expected": "Pain is temporary. Quitting lasts forever.",
+    "actual": "Pain is temporary. Quitting lasts forever.",
+    "wpm": 13,
+    "accuracy": 100.0,
+    "mistakes": []
+  },
+  {
+    "timestamp": "2026-01-29T15:11:43.690408",
+    "drill_id": "auto_1769666988_4",
+    "category": "shift_mix",
+    "expected": "npm install react-dom",
+    "actual": "np, install react-dom",
+    "wpm": 21,
+    "accuracy": 95.23809523809523,
+    "mistakes": [
+      "Typo: 'm' -> ','"
+    ]
+  },
+  {
+    "timestamp": "2026-01-29T15:12:11.457218",
+    "drill_id": "auto_1769667106_0",
+    "category": "shift_mix",
+    "expected": "git commit -m \"fix: bug\"",
+    "actual": "got commit -m \"fix: bug\"",
+    "wpm": 12,
+    "accuracy": 95.83333333333334,
+    "mistakes": [
+      "Typo: 'i' -> 'o'"
+    ]
+  },
+  {
+    "timestamp": "2026-01-29T15:12:34.183836",
+    "drill_id": "auto_1769667106_1",
+    "category": "shift_mix",
+    "expected": "성공이란 열정을 잃지 않고 실패에서 실패로 걸어가는 능력이다.",
+    "actual": "성공이란 열정을 잃지 않고 실패에서 실패로 걸어가는 능력이다.",
+    "wpm": 17,
+    "accuracy": 100.0,
+    "mistakes": []
+  },
+  {
+    "timestamp": "2026-01-29T15:12:37.154436",
+    "drill_id": "auto_1769667106_2",
+    "category": "shift_mix",
+    "expected": "Daft Punk - Get Lucky",
+    "actual": "",
+    "wpm": 0,
+    "accuracy": 0.0,
+    "mistakes": [
+      "Missed: 'Daft Punk - Get Lucky'"
+    ]
+  },
+  {
+    "timestamp": "2026-01-29T15:12:38.774910",
+    "drill_id": "auto_1769667106_3",
+    "category": "shift_mix",
+    "expected": "Elon Musk -> SpaceX & Tesla",
+    "actual": "",
+    "wpm": 0,
+    "accuracy": 0.0,
+    "mistakes": [
+      "Missed: 'Elon Musk -> SpaceX & Tesla'"
+    ]
+  },
+  {
+    "timestamp": "2026-01-29T15:13:07.531102",
+    "drill_id": "auto_1769667106_4",
+    "category": "shift_mix",
+    "expected": "HTML, CSS, And JS!",
+    "actual": "HTML, CSS, And JS!",
+    "wpm": 7,
+    "accuracy": 100.0,
+    "mistakes": []
+  },
+  {
+    "timestamp": "2026-01-29T15:13:36.894723",
+    "drill_id": "auto_1769667190_0",
+    "category": "shift_mix",
+    "expected": "PyTorch vs TensorFlow",
+    "actual": "PyTorch vs TendorFlow",
+    "wpm": 12,
+    "accuracy": 95.23809523809523,
+    "mistakes": [
+      "Typo: 's' -> 'd'"
+    ]
+  },
+  {
+    "timestamp": "2026-01-29T15:13:49.091071",
+    "drill_id": "auto_1769667190_1",
+    "category": "shift_mix",
+    "expected": "npm install react-dom",
+    "actual": "npm install react-dom",
+    "wpm": 20,
+    "accuracy": 100.0,
+    "mistakes": []
+  },
+  {
+    "timestamp": "2026-01-29T15:13:55.593659",
+    "drill_id": "auto_1769667190_2",
+    "category": "shift_mix",
+    "expected": "Hello World",
+    "actual": "Hello World",
+    "wpm": 20,
+    "accuracy": 100.0,
+    "mistakes": []
+  },
+  {
+    "timestamp": "2026-01-29T15:14:25.295435",
+    "drill_id": "auto_1769667190_3",
+    "category": "shift_mix",
+    "expected": "In the middle of difficulty lies opportunity.",
+    "actual": "In the middle of diffoculty lies opportunity.",
+    "wpm": 18,
+    "accuracy": 97.77777777777777,
+    "mistakes": [
+      "Typo: 'i' -> 'o'"
+    ]
+  },
+  {
+    "timestamp": "2026-01-29T15:14:44.174540",
+    "drill_id": "auto_1769667190_4",
+    "category": "shift_mix",
+    "expected": "Daft Punk - Get Lucky",
+    "actual": "Daft Punk - Get Lucky",
+    "wpm": 13,
+    "accuracy": 100.0,
+    "mistakes": []
+  }
+]
