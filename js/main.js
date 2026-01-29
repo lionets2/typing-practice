@@ -89,6 +89,7 @@ const loadSentence = () => {
         textDisplay.appendChild(span);
     });
 
+    typingInput.maxLength = currentText.length;
     typingInput.value = '';
     state.isPlaying = true;
 
@@ -159,11 +160,28 @@ const handleTyping = () => {
     }
 };
 
+
+const passSentence = () => {
+    const currentText = state.curriculum[state.currentSentenceIndex].text;
+    state.totalChars += currentText.length;
+    state.currentSentenceIndex++;
+
+    typingInput.disabled = true;
+    textDisplay.classList.add('completed');
+
+    setTimeout(() => {
+        typingInput.disabled = false;
+        textDisplay.classList.remove('completed');
+        loadSentence();
+        typingInput.focus();
+    }, 300);
+};
+
 const finishGame = () => {
     state.isPlaying = false;
     clearInterval(state.timer);
     alert(`연습 완료!\n평균 속도: ${calculateWPM()} WPM\n정확도: ${calculateAccuracy()}%\n총 백스페이스: ${state.totalBackspaces}`);
-    location.reload(); // Simple reset
+    location.reload();
 };
 
 // Event Listeners
@@ -177,7 +195,7 @@ typingInput.addEventListener('input', () => {
     handleTyping();
 });
 
-// Backspace Tracking
+// Backspace & Enter Tracking
 typingInput.addEventListener('keydown', (e) => {
     if (!state.isPlaying) return;
 
@@ -186,8 +204,20 @@ typingInput.addEventListener('keydown', (e) => {
         state.totalBackspaces++;
         backspaceDisplay.innerText = state.totalBackspaces;
 
-        // Add visual flare to backspace stat?
         backspaceDisplay.parentElement.classList.add('pulse');
         setTimeout(() => backspaceDisplay.parentElement.classList.remove('pulse'), 200);
+    }
+
+    if (e.key === 'Enter') {
+        const inputValue = typingInput.value;
+        const currentText = state.curriculum[state.currentSentenceIndex].text;
+
+        if (inputValue === currentText) {
+            passSentence();
+        } else {
+            // Shake effect for error
+            document.getElementById('practice-area').classList.add('shake');
+            setTimeout(() => document.getElementById('practice-area').classList.remove('shake'), 500);
+        }
     }
 });
