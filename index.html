@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +8,12 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+KR:wght@400;500;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+KR:wght@400;500;700&family=Roboto+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="app-container">
         <header>
@@ -29,8 +33,39 @@
                 </div>
             </section>
 
-            <section id="stats-preview" class="hidden">
-               <!-- 통계 요약이 여기에 들어갑니다 -->
+            <section id="practice-area" class="glass-panel hidden">
+                <div class="stats-bar">
+                    <div class="stat-item">
+                        <span class="stat-label">속도 (WPM)</span>
+                        <span class="stat-value" id="wpm-display">0</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">정확도</span>
+                        <span class="stat-value" id="accuracy-display">100%</span>
+                    </div>
+                    <div class="stat-item warning">
+                        <span class="stat-label">백스페이스</span>
+                        <span class="stat-value" id="backspace-display">0</span>
+                    </div>
+                </div>
+
+                <div class="text-display-container">
+                    <div id="text-display" class="text-display">
+                        <!-- 텍스트 예시 -->
+                        여기를 눌러 연습을 시작하세요...
+                    </div>
+                </div>
+
+                <input type="text" id="typing-input" class="typing-input" autocomplete="off" spellcheck="false"
+                    placeholder="위 내용을 따라 치세요...">
+
+                <div id="keyboard-guide" class="keyboard-guide hidden">
+                    <!-- 키보드 가이드 시각화 예정 -->
+                </div>
+            </section>
+
+            <section id="stats-preview" class="glass-panel hidden">
+                <!-- 통계 요약이 여기에 들어갑니다 -->
             </section>
         </main>
 
@@ -40,4 +75,5 @@
     </div>
     <script src="js/main.js" type="module"></script>
 </body>
+
 </html>
